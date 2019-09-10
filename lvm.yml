@@ -19,7 +19,7 @@
                 fstype: ext4
                 dev: /dev/ans_vg/ans_lv
 
-        - name: mount db01 logical volumes
+        - name: mounting the file system
           mount:
                 name: /ans_mount
                 src: /dev/ans_vg/ans_lv
